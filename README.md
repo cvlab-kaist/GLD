@@ -19,9 +19,9 @@
 ## News
 
 - **2026-07-24**: 🎤 GLD was selected for an **Oral Presentation at ECCV 2026**.
-- **2026-06-18**: 🎉 GLD was accepted to **ECCV 2026**.
-- **2026-03-25**: 🛠️ Cleaned up camera conventions and removed unused debugging code. All input cameras are now expected in **OpenCV convention** (X-right, Y-down, Z-forward), with an updated checkpoint.
-- **2026-03-24**: 🚀 Initial code and model release.
+- **2026-06-18**: GLD was accepted to **ECCV 2026**.
+- **2026-03-25**: Cleaned up camera conventions and removed unused debugging code. All input cameras are now expected in **OpenCV convention** (X-right, Y-down, Z-forward), with an updated checkpoint.
+- **2026-03-24**: Initial code and model release.
 
 ## Overview
 
