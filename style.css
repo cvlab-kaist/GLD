@@ -825,8 +825,9 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; color: var(--ap
 [data-hero="dark"] .sec-hero .venue-badge { color: rgba(255, 255, 255, 0.6); }
 [data-hero="split"] .sec-hero { background: linear-gradient(135deg,var(--hero-grad-from, #f9f9ff) 50%,var(--hero-grad-to, #fff) 50%); }
 [data-hero="pattern"] .sec-hero { background-position-x: ; background-position-y: ; background-repeat: ; background-attachment: ; background-origin: ; background-clip: ; background-color: ; background-image: radial-gradient(var(--border-color, #ddd) 1px,transparent 1px); background-size: 20px 20px; }
-.hero-venue { margin-bottom: 16px; }
+.hero-venue { margin-bottom: 16px; display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; }
 .venue-badge { display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--text-secondary); padding: 5px 16px; border-radius: 100px; }
+.oral-presentation-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; font-weight: 700; letter-spacing: 0.02em; color: #fff; background: var(--primary, #dd7f27); padding: 5px 13px; border-radius: 100px; box-shadow: 0 4px 14px rgba(221, 127, 39, 0.2); }
 .hero-title { font-family: var(--font-heading); font-size: var(--hero-title-size, 3rem); font-weight: 700; line-height: 1.2; color: var(--text); margin-bottom: 16px; letter-spacing: -0.02em; }
 .hero-title-line { display: block; }
 .hero-title-line-highlight, .hero-title-accent { color: var(--hero-highlight, var(--accent, var(--primary))); }
@@ -1443,6 +1444,7 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; color: var(--ap
   .hero-subtitle { font-size: 0.85rem !important; line-height: 1.5; }
   .hero-venue { margin-bottom: 10px; }
   .venue-badge { font-size: 0.72em; padding: 4px 10px; letter-spacing: 0.03em; }
+  .oral-presentation-badge { font-size: 0.72em; padding: 4px 9px; gap: 4px; }
   .sec { padding-top: calc(var(--sec-pt, var(--section-spacing, 48px)) * .4); padding-bottom: calc(var(--sec-pb, var(--section-spacing, 48px)) * .4); }
   .sec-authors { padding-top: calc(var(--sec-pt, 12px) * .5); padding-bottom: calc(var(--sec-pb, 24px) * .5); }
   .sec-links { padding-top: calc(var(--sec-pt, 8px) * .5); padding-bottom: calc(var(--sec-pb, 32px) * .5); }
@@ -1479,6 +1481,7 @@ body { font-family: Inter, system-ui, -apple-system, sans-serif; color: var(--ap
   .hero-title { font-size: 1.2rem !important; }
   .hero-subtitle { font-size: 0.8rem !important; }
   .venue-badge { font-size: 0.65em; }
+  .oral-presentation-badge { font-size: 0.65em; padding: 4px 8px; }
   .link-btn { font-size: 10px; padding: 5px 8px; }
   .author-name { font-size: 0.8em; }
   .author-affil { font-size: 0.6em; }
