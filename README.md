@@ -5,7 +5,8 @@
 <sup>1</sup>KAIST &nbsp; <sup>2</sup>New York University &nbsp; <sup>3</sup>Intel Labs
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ECCV-2026-6f42c1" />
+  <img src="https://img.shields.io/badge/ECCV-2026-6f42c1" alt="ECCV 2026" />
+  <img src="https://img.shields.io/badge/%F0%9F%8E%A4-Oral%20Presentation-dd7f27" alt="Oral Presentation" />
   <a href="https://cvlab-kaist.github.io/GLD/"><img src="https://img.shields.io/badge/Project-Page-blue" /></a>
   <a href="https://arxiv.org/abs/2603.22275"><img src="https://img.shields.io/badge/arXiv-2603.22275-red" /></a>
   <a href="https://huggingface.co/SeonghuJeon/GLD"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Models-yellow" /></a>
@@ -17,9 +18,10 @@
 
 ## News
 
-- **2026-06-18**: GLD has been accepted to **ECCV 2026**.
-- **2026-03-25**: Clean up camera conventions and remove unused debugging code. All input cameras are now expected in **OpenCV convention** (X-right, Y-down, Z-forward) + Updated Checkpoint.
-- **2026-03-24**: Initial code and model release.
+- **2026-07-24**: 🎤 GLD was selected for an **Oral Presentation at ECCV 2026**.
+- **2026-06-18**: 🎉 GLD was accepted to **ECCV 2026**.
+- **2026-03-25**: 🛠️ Cleaned up camera conventions and removed unused debugging code. All input cameras are now expected in **OpenCV convention** (X-right, Y-down, Z-forward), with an updated checkpoint.
+- **2026-03-24**: 🚀 Initial code and model release.
 
 ## Overview
 
